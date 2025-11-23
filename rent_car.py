@@ -1,5 +1,4 @@
 # SISTEMA DE GESTIÓN DE FLOTA - RENT A CAR
-# Estructura de datos: Diccionario { 'Modelo': Cantidad_Disponible }
 
 def ingresar_devolver_auto(flota):
     """
@@ -17,7 +16,7 @@ def ingresar_devolver_auto(flota):
         flota[modelo] = flota.get(modelo, 0) + cant
         print(f"ÉXITO: Stock actualizado. {modelo} = {flota[modelo]} unidades.")
     except ValueError:
-        print("Error: Debes ingresar un número entero.")
+        print("Error: Debes ingresar un número entero.(0-9)")
 
 def alquilar_auto(flota):
     """
