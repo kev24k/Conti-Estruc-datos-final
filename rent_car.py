@@ -62,7 +62,7 @@ def ver_flota(flota):
 
 def menu_principal():
     """Función de control de flujo (Menú)."""
-    flota_autos = {} # Inicialización del Hash Map (Diccionario)
+    flota_autos = {} # Inicialización del (Diccionario)
     
     while True:
         print("\n=== RENT-A-CAR SYSTEM ===")
